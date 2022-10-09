@@ -15,11 +15,11 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('first_name');
-            $table->string('middle_name');
-            $table->string('last_name');
+            $table->string('first_name')->nullable();
+            $table->string('middle_name')->nullable();
+            $table->string('last_name')->nullable();
             $table->string('phone')->nullable();
-            $table->enum('account_type', ['individual', 'company'])->nullable();
+            $table->enum('account_type', ['buyer', 'seller'])->nullable();
             $table->string('dob')->nullable();
             $table->string('address1')->nullable();
             $table->string('address2')->nullable();
