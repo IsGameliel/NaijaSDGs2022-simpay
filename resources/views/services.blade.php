@@ -31,7 +31,7 @@
             <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
               <div class="icon flex-shrink-0"><i class="bi bi-credit-card-2-front-fill" style="color: #f57813;"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Escrow payment</a></h4>
+                <h4 class="title"><a href="{{ url('escrow/home') }}" class="stretched-link">Escrow system</a></h4>
                 <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
               </div>
             </div>

@@ -19,6 +19,8 @@ Route::get('/about', [FrontController::class, 'about']);
 Route::get('/services', [FrontController::class, 'services']);
 Route::get('/contact', [FrontController::class, 'contact']);
 
+Route::get('/escrow/home', [FrontController::class, 'escrow_page']);
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
