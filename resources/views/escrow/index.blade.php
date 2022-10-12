@@ -47,7 +47,7 @@
                     </fieldset>
                 </div>
                 <div class="form-goup">
-                    <a href="" class="btn btn-primary">Start Now</a>
+                    <a href="{{ url('/escrow/start/transaction') }}" class="btn btn-primary">Start Now</a>
                 </div>
             </form>
         </div>
