@@ -21,4 +21,9 @@ class FrontController extends Controller
     public function contact(){
         return view('contact');
     }
+
+    // escrow pages
+    public function escrow_page(){
+        return view('escrow.index');
+    }
 }
